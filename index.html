@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Property Interaktif</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Web Property</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Properties</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="property-slider-section">
+    <h2>Temukan Properti Impianmu</h2>
+    <div class="property-slider">
+        <button class="prev">&lt;</button>
+        <div class="slider-track-wrapper">
+            <div class="slider-track">
+                <div class="slide">
+                    <div class="property-card rumah terbaru">
+                        <span class="badge">Terbaru</span>
+                        <img src="Images/r-minimalis.png" alt="Properti 1">
+                        <div class="details">
+                            <h3>Rumah Minimalis</h3>
+                            <p>3 kamar tidur, 2 kamar mandi, luas tanah 120m².</p>
+                            <button class="detail-btn">Lihat Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="property-card apartemen">
+                        <img src="Images/apt2.png" alt="Properti 2">
+                        <div class="details">
+                            <h3>Apartemen Modern</h3>
+                            <p>2 kamar tidur, 1 kamar mandi, dekat pusat kota.</p>
+                            <button class="detail-btn">Lihat Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="property-card vila terbaru">
+                        <span class="badge">Terbaru</span>
+                        <img src="Images/house-1477041_1280.png" alt="Properti 3">
+                        <div class="details">
+                            <h3>Vila Eksklusif</h3>
+                            <p>4 kamar tidur, kolam renang, pemandangan laut.</p>
+                            <button class="detail-btn">Lihat Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="property-card rumah">
+                        <img src="Images/r-klasik.png" alt="Properti 4">
+                        <div class="details">
+                            <h3>Rumah Klasik</h3>
+                            <p>3 kamar tidur, 2 kamar mandi, halaman luas.</p>
+                            <button class="detail-btn">Lihat Detail</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="next">&gt;</button>
+    </div>
+</section>
+
+
+<div class="container">
+    <h2>Daftar Properti</h2>
+
+    <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-filter="rumah">Rumah</button>
+        <button class="filter-btn" data-filter="apartemen">Apartemen</button>
+        <button class="filter-btn" data-filter="vila">Vila</button>
+    </div>
+
+    <div class="property-list">
+        <div class="property-card rumah terbaru">
+            <span class="badge">Terbaru</span>
+            <img src="Images/r-minimalis.png" alt="Properti 1">
+            <div class="details">
+                <h3>Rumah Minimalis</h3>
+                <p>3 kamar tidur, 2 kamar mandi, luas tanah 120m².</p>
+                <button class="detail-btn">Lihat Detail</button>
+            </div>
+        </div>
+        <div class="property-card apartemen">
+            <img src="Images/apt2.png" alt="Properti 2">
+            <div class="details">
+                <h3>Apartemen Modern</h3>
+                <p>2 kamar tidur, 1 kamar mandi, dekat pusat kota.</p>
+                <button class="detail-btn">Lihat Detail</button>
+            </div>
+        </div>
+        <div class="property-card vila terbaru">
+            <span class="badge">Terbaru</span>
+            <img src="Images/house-1477041_1280.png" alt="Properti 3">
+            <div class="details">
+                <h3>Vila Eksklusif</h3>
+                <p>4 kamar tidur, kolam renang, pemandangan laut.</p>
+                <button class="detail-btn">Lihat Detail</button>
+            </div>
+        </div>
+        <div class="property-card rumah">
+            <img src="Images/r-klasik.png" alt="Properti 4">
+            <div class="details">
+                <h3>Rumah Klasik</h3>
+                <p>3 kamar tidur, 2 kamar mandi, halaman luas.</p>
+                <button class="detail-btn">Lihat Detail</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    Nabila &copy; 2025.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
