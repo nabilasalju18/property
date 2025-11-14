@@ -9,7 +9,7 @@
 body {
     line-height: 1.6;
     background-color: #0f986a;
-    color: ##fbfbfb;
+    color: #fbfbfb;
 }
 
 /* Header & nav */
@@ -275,4 +275,5 @@ footer {
         margin-right: 10px;
     }
 }
+
 
